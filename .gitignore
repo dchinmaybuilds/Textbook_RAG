@@ -1,0 +1,19 @@
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# Dependencies, caches, and logs
+node_modules/
+__pycache__/
+*.pyc
+*.log
+
+# Local deployment metadata
+.openai/
+
+# Source textbooks, packaged copies, and preview images
+*.pdf
+*.tar.gz
+*.zip
+*-preview.png
